@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+
+# Large model files (use Git LFS or download separately)
+models/*.pkl
+data/creditcard.csv
+data/fraud_dataset.csv
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.spec
+*.manifest
+*.exe
+FraudShield/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Encrypted keys (do not commit)
+.gemini_key.enc
+.enc_key
+
+# Logs
+*.log
+
+# Test outputs
+test_transactions.csv
