@@ -8,11 +8,6 @@ build/
 develop-eggs/
 dist/
 downloads/
-
-# Large model files (use Git LFS or download separately)
-models/*.pkl
-data/creditcard.csv
-data/fraud_dataset.csv
 eggs/
 .eggs/
 lib/
